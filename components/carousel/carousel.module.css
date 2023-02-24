@@ -1,0 +1,19 @@
+.imgContainer {
+    border-radius: 15px;
+}
+
+.arrowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20rem;
+    height: 100%;
+}
+
+.arrowBtn {
+    background-color: var(--slate-gray);
+    padding: 1rem;
+    border-radius: 75px;
+    opacity: 80%;
+}

@@ -1,0 +1,35 @@
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    height: 100vh;
+}
+
+.link {
+    background-color: var(--slate-gray);
+    color: var(--white);
+    text-decoration: none;
+    font-size: large;
+    padding: 1rem;
+    border-radius: 20px;
+    width: 3rem;
+}
+
+.link:hover {
+    background-color: var(--white);
+    color: var(--slate-gray);
+    border: 2px solid var(--slate-gray)
+}
+
+.header {
+    font-size: xx-large;
+    color: var(--slate-gray);
+}
+
+.number {
+    color: var(--violet);
+    font-size: x-large;
+}
